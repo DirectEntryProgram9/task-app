@@ -9,10 +9,10 @@ public class Project implements SuperEntity {
 
     private int id;
     private String name;
-    private User user;
+    private String username;
 
-    public Project(String name, User user) {
+    public Project(String name, String username) {
         this.name = name;
-        this.user = user;
+        this.username = username;
     }
 }
